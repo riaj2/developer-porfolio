@@ -3,8 +3,17 @@ body {
     margin: 0%;
 }
 
+.flexible-container {
+    display: flex;
+    margin-bottom: 15%
+}
+
 h1 {
     font-size: 50px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
 }
 
 .Asta {
@@ -16,8 +25,9 @@ h1 {
     padding-left: 5%;
 }
 
-section {
+sections {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .half-width img {
@@ -26,17 +36,50 @@ section {
 
 #link {
     text-decoration: none;
-    background-color: orange;
+    background-color: coral;
     padding: 10px 25px;
-    border-radius: 5%;
+    border-radius: 5px;
     font-weight: 700;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.link-button {
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+
 }
 
 body {
     padding: 0%;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.exprience-are {
+    background-image: url(images/exp-bg.png);
+}
+
+.experience-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#pro {
+    border-left: 7px solid tomato;
+}
+
+#noob {
+    border-left: 7px solid blue;
+    text-align: start;
 }
